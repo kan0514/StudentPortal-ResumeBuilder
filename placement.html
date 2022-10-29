@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Placement Management</title>
+    <link rel="stylesheet" href="css/styles1.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      table {
+        width: 100%;
+      }
+
+      table tbody tr td {
+        font-size: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <!-- <div class="form__group">
+        <input
+          type="text"
+          class="CGPA_input"
+          placeholder="Enter CGPA"
+          id="cgpa_input"
+          required
+        />
+        <label class="CPGA_label">CGPA</label>
+      </div> -->
+      <div class="form__group" id="dropdown_companies"></div>
+      <!-- <div class="form__group">
+        <button class="btn btn--green" id="btn">submit</button>
+      </div> -->
+    </section>
+    <h1>COMPANY WISE ELIGIBILITY LIST</h1>
+    <table align="center" border="1">
+      <thead>
+        <tr class="table">
+          <th><h2>Name</h2></th>
+          <th><h2>Email</h2></th>
+          <th><h2>GPA</h2></th>
+        </tr>
+      </thead>
+      <tbody id="table_body"></tbody>
+    </table>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+          https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
+
+    <script src="place.js"></script>
+  </body>
+</html>
