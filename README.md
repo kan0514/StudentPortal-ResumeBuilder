@@ -20,3 +20,6 @@ If you encounter any issues or have suggestions for improvement, please open an 
 
 # License:
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+# Screenshots
+https://uploadnow.io/f/snVKPpL
